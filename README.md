@@ -457,27 +457,3 @@ document.querySelector('input[type="file"]').onchange = function(e) {
   });
 };
 ```
-
-## Contributing
-
-### Building
-
-Install the dependencies and compile the library by running `gulp`:
-
-    npm install
-    gulp
-
-This will output a built file to `dist/filer.min.js`.
-
-### Releasing
-
-To cut a new release, run:
-
-    npm version patch
-
-Also update components.json with the new version. Then run:
-
-    gulp
-    npm publish
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46812528-1/ebidel/filer.js/README)](https://github.com/igrigorik/ga-beacon)
