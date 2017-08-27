@@ -41,10 +41,6 @@ different methods and capabilities:
 Usage
 -----
 
-Install the polyfill:
-
-    npm install filer.js --save
-
 Drop it on your page:
 
     <script src="node_modules/filer/dist/filer.min.js" async></script>
